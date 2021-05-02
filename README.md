@@ -4,7 +4,15 @@ The first Full Stack PHP walk-through project.
 
 In this project, the basics of lessons learned from PHP and mySQL was used to create a website that displays a list of pizzas, create more, view more details, and delete a pizza selected from the list.
 
-👉 [Quick Preview]()
+👉 [Quick Preview](https://ninja-pizza-php-project.herokuapp.com/)
+
+**Developer Goals**:
+    
+    - Learn the basics of PHP basics & creating PHP files
+    - Rendering dynamic content to HTML templates wit PHP
+    - Learn How to communicate with MySQL databases
+    - Learn about cookies and sessions
+    - Learn about PHP objects & classes
  
 ## Features
 
@@ -55,7 +63,7 @@ These are the existing features of the project:
 
 The project is hosted on heroku.
 
-👉 [Check it Out]()
+👉 [Check it Out](https://ninja-pizza-php-project.herokuapp.com/)
 
 ## Credits
 
