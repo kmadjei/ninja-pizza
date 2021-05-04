@@ -17,6 +17,7 @@ In this project, the basics of lessons learned from PHP and mySQL was used to cr
 ## Features
 
 These are the existing features of the project:
+
     - Home page 
         - Shows list of created pizzas 
         - Button to view pizza details
