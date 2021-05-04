@@ -1,4 +1,4 @@
-# Ninja Pizza - First PHP and MysSQL Project
+# Ninja Pizza - First PHP and MySQL Project
 
 The first Full Stack PHP walk-through project. 
 
