@@ -15,21 +15,3 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 if(!$conn){
 	echo 'Connection error: '. mysqli_connect_error();
 }
-
-/*
-	//For PHP MyAdmin
-	$servername = "localhost";
-	$username = "ken";
-	$password = "test1234";
-	$dataBase =	"ninja_pizza";
-	
-	// connect to the database - procedural MySQLI
-	$conn = mysqli_connect($servername, $username, $password, $dataBase);
-
-	// check connection
-	if(!$conn){
-		echo 'Connection error: '. mysqli_connect_error();
-	}
-
-*/
-?>

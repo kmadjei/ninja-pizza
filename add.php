@@ -46,6 +46,7 @@
 			}
 		}
 
+		# checks if errors exist
 		if(array_filter($errors)){
 			//echo 'errors in form';
 		} else {
