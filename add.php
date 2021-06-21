@@ -93,7 +93,7 @@
 		-->
 		<form class="white" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
 			<label for="name">Name</label>		
-			<input type="text" id="name" name="name" pattern="^[a-zA-Z0-9]{5,15}$" value="<?php echo htmlspecialchars($name) ?>">
+			<<input type="text" id="name" name="name" value="<?php echo htmlspecialchars($name) ?>">
 			<div class="red-text"><?php echo $errors['name']; ?></div>
 			<label for="email">Your Email</label>		
 			<input type="text" id="email" name="email" value="<?php echo htmlspecialchars($email) ?>">
