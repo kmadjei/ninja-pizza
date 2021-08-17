@@ -2,7 +2,7 @@
 
 The first Full Stack PHP walk-through project. 
 
-In this project, the basics of lessons learned from PHP and mySQL was used to create a website that displays a list of pizzas, create more, view more details, and delete a pizza selected from the list.
+In this project, I demonstrate basic knowledge of PHP and MySQL to create a website that displays a list of pizzas, view it, edit it, and delete a selected pizza order. 
 
 👉 [Quick Preview](https://ninja-pizza-php-project.herokuapp.com/)
 
