@@ -70,8 +70,8 @@ The project is hosted on heroku.
 
 ### Content
 - All contents for this walk-through project was provided  by [@iamshaunjp]. 
-    - Video ctutorial --> [PHP Tutorial for Beginners](https://www.youtube.com/watch?v=pWG7ajC_OVo&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o&ab_channel=TheNetNinja)
+    - Video tutorial --> [PHP Tutorial for Beginners](https://www.youtube.com/watch?v=pWG7ajC_OVo&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o&ab_channel=TheNetNinja)
 
 ### Acknowledgements
 
-- I learned alot from Shaun about the basics of PHP and how it can be used to create web application with Front End and Backend attributes.
+- I learned a lot from Shaun about the basics of PHP and how it can be used to create web application with Front End and Backend attributes.

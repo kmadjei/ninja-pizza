@@ -3,19 +3,14 @@
 	//connect to the database template
 	include('config/db_connect.php');
 
-	$name = $email = $title = $ingredients = '';
-	$errors = array('name' => '','email' => '', 'title' => '', 'ingredients' => '');
+	$email = $title = $ingredients = '';
+	$errors = array('email' => '', 'title' => '', 'ingredients' => '');
 
 	//form validations when its submitted
 	if(isset($_POST['submit'])){
 
 		session_start();
-		
-		// check name
-		if(empty($_POST['name'])){
-			$errors['ename'] = 'A name is required';
-		}
-
+	
 		// check email
 		if(empty($_POST['email'])){
 			$errors['email'] = 'An email is required';
@@ -51,13 +46,9 @@
 			//echo 'errors in form';
 		} else {
 
-			// pass name to session superglobal
-			$_SESSION['name'] = $_POST['name'];
-
 			// Escapes special characters - mysqli_real_escape_string
 			//create a legal SQL string that you can use in an SQL statement
 			// get the form values
-			$name = mysqli_real_escape_string($conn, $_POST['email']);
 			$email = mysqli_real_escape_string($conn, $_POST['email']);
 			$title = mysqli_real_escape_string($conn, $_POST['title']);
 			$ingredients = mysqli_real_escape_string($conn, $_POST['ingredients']);
@@ -92,9 +83,6 @@
 			- protect against Cross-site Scripting attacks (XSS)
 		-->
 		<form class="white" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
-			<label for="name">Name</label>		
-			<<input type="text" id="name" name="name" value="<?php echo htmlspecialchars($name) ?>">
-			<div class="red-text"><?php echo $errors['name']; ?></div>
 			<label for="email">Your Email</label>		
 			<input type="text" id="email" name="email" value="<?php echo htmlspecialchars($email) ?>">
 			<div class="red-text"><?php echo $errors['email']; ?></div>
